@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
-    <title>meowdoro ⋆˚✿˖°</title>
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Meowdoro ⋆˚✿˖°</title>
+  </head>
+  <body>
+    <div class="container-1">
+      <div class="cat">
+        <img
+          id="sleepyCat"
+          src="sleepy.gif"
+          alt="Sleepy Cat"
+          style="width: 200px; height: 200px"
+        />
+        <img
+          id="studyingCat"
+          src="studying.gif"
+          alt="Studying Cat"
+          style="width: 200px; height: 200px"
+        />
+      </div>
+      <div class="pomodoro">
+        <div class="timesLooped"></div>
+        <p class="timer" id="timer">25:00</p>
+        <div class="buttons">
+          <button id="pauseButton" class="button1"><span class="material-icons-sharp">pause</span></button>
+          <button id="startButton" class="button2"><span class="material-icons-sharp">play_arrow</span></button>
+          <button id="resetButton" class="button3"><span class="material-icons-sharp">restart_alt</span></button>
+        </div>
+      </div>
+    </div>
+    <div class="container-2">
+      <div class="todo"></div>
+    </div>
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
