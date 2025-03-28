@@ -1,73 +1,122 @@
 * {
-    background: #FFF6D5;
-    font-family: 'Karla';
+  background: #fff6d5;
+  font-family: "Karla";
 }
 
 .material-icons-sharp {
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px;  /* Preferred icon size */
-    display: inline-block;
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
-  
-    /* Support for all WebKit browsers. */
-    -webkit-font-smoothing: antialiased;
-    /* Support for Safari and Chrome. */
-    text-rendering: optimizeLegibility;
-  
-    /* Support for Firefox. */
-    -moz-osx-font-smoothing: grayscale;
-  
-    /* Support for IE. */
-    font-feature-settings: 'liga';
-  }  
-.body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-  }
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  color: white;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
 
 .container-1 {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: 100px;
-  }
-  
-  .cat {
-  }
-  
-  .info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 100px;
+  max-height: 200px;
+}
 
-  .timer {
-    font-size: 70px;
-    font-family: 'Jersey 15';
-    color: #7C3F58;
-  }
-  
-  .buttons {
-    display: flex;
-    gap: 10px;
-  }
+.cat {
+  margin-right: 25px;
+}
 
-  .button1, .button3 {
+.info {
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
 
-  }
+.timer {
+  font-size: 70px;
+  font-family: "Jersey 15";
+  color: #7c3f58;
+  margin: 0;
+}
 
-  .button2 {
+.button1 {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: #EB6B6F;
+  border: none;
+  box-shadow: 0 5px #f0cdcd;
+}
 
-  }
+.button1:hover {background-color: #EB6B6F}
+
+.button1:active {
+  background-color: #EB6B6F;
+  box-shadow: 0 5px #f0cdcd;
+  transform: translateY(4px);
+}
+
+.button2 {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: #EB6B6F;
+  border: none;
+  box-shadow: 0 5px #f0cdcd;
+}
+
+.button2:hover {background-color: #EB6B6F}
+
+.button2:active {
+  background-color: #EB6B6F;
+  box-shadow: 0 5px #f0cdcd;
+  transform: translateY(4px);
+}
+
+.button3 {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: #EB6B6F;
+  border: none;
+  box-shadow: 0 5px #f0cdcd;
+}
+
+.button3:hover {background-color: #EB6B6F}
+
+.button3:active {
+  background-color: #EB6B6F;
+  box-shadow: 0 5px #f0cdcd;
+  transform: translateY(4px);
+}
