@@ -10,21 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
     <title>Meowdoro ⋆˚✿˖°</title>
   </head>
   <body>
     <div class="container-1">
       <div class="cat">
-        <img
-          id="sleepyCat"
-          src="sleepy.gif"
-          alt="Sleepy Cat"
-          style="width: 200px; height: 200px"
-        />
         <img
           id="studyingCat"
           src="studying.gif"
@@ -33,12 +23,32 @@
         />
       </div>
       <div class="pomodoro">
-        <div class="timesLooped"></div>
+        <div class="timesLooped">0/4 completed</div>
         <p class="timer" id="timer">25:00</p>
         <div class="buttons">
-          <button id="pauseButton" class="button1"><span class="material-icons-sharp">pause</span></button>
-          <button id="startButton" class="button2"><span class="material-icons-sharp">play_arrow</span></button>
-          <button id="resetButton" class="button3"><span class="material-icons-sharp">restart_alt</span></button>
+          <button id="pauseButton" class="button1">
+            <img id="pauseIcon"
+            src="pause.png"
+            alt="Pause Icon" 
+            style="width: 15px; height: 15px; padding: 5px; background-color: transparent;" />
+          </button>
+          
+          <button id="startButton" class="button2">
+            <img id="startIcon"
+            src="start.png"
+            alt="Start Icon" 
+            style="width: 15px; height: 15px; padding: 5px; background-color: transparent;""
+            />
+          </button>
+
+          <button id="resetButton" class="button3">
+            <img id="resetIcon"
+            src="reset.png"
+            alt="Reset Icon" 
+            style="width: 15px; height: 15px; padding: 5px; background-color: transparent;""
+            />
+          </button>
+          </button>
         </div>
       </div>
     </div>
