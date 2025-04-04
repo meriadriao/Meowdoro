@@ -21,8 +21,12 @@
   height: 100vh;
 }
 
-.cat {
+.cat1, .cat2 {
   margin-right: 25px;
+}
+
+.hidden {
+  display: none;
 }
 
 .info {
